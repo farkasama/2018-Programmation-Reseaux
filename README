@@ -1,0 +1,50 @@
+### instruction:
+gardez ce README ouvert! contient les touches que vous aurez besoin!
+Besoin taille du terminal: au moins 30 lignes * 60 colonnes.
+Le jeu n'affiche que 20 parties non commencées.
+Le jeu n'affiche que 20 Joueurs par partie.
+
+Ctrl^c pour fermer le jeu.
+
+touche dans salon:
+- fleche up
+- fleche down
+- entrer : pour s'inscrire, besoin d'entree votre id
+- n|N : créer une partie
+- r|R : envoyer GAMES?***...etc (ie. raffraichire la liste de parties non commencées.
+- s|S : envoyer SIZE?*** (ie. la taille du labyrinthe.
+- l|L : demander la liste de player.
+
+touche dans une partie non commencée:
+- entrer : envoyer START*** et BLOCK tout vos
+- s|S : envoyer SIZE?*** (ie. la taille du labyrinthe.
+- l|L : demander la liste de player.
+- q|Q : quitter la salle en envoyant UNREG m***
+
+dans JEU:
+X : un fantome a été attrapé
+Y : You
+F : fantom
++ : mur
+touche in game:
+- fleche up, down, left, right: bouger dans le labyrinthe
+- enter : ALL message
+- s|S : send private message
+- q|Q : QUIT*** et ferme le jeu
+- r|R : refresh la liste de joueurs
+
+
+### compilation & excecution
+soit 1:
+    - make
+    - ./client
+    - java server
+
+soit 2:
+    - bash run client
+    - bash run server
+
+### autre
+message.pdf : liste des messages que l'on peut avoir
+    - les exposants sont le nombre d'octet
+    - en couleur codé little endian
